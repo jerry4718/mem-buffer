@@ -1,0 +1,12 @@
+[package]
+name = "hello_mem"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mem-marco = { path = "./mem-marco" }
+
+[workspace]
+members = [
+    "mem-marco"
+]
